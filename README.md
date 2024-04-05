@@ -12,7 +12,8 @@ El backend será desarrollado en Laravel y los administradores podrán llevar a 
 - **Gestión de categorias**: Los administradores podrán agregar, modificar o eliminar categorias. Las categorias van a tener un codigo y un nombre.
 - **Gestión de subcategorias**: Los administradores podrán agregar. modificar o eliminar subcategorias. Las subcategorias van a tener un codigo y un nombre.
 - **Gestión de entidades crediticias**: Los administradores podrán agregar, modificar o eliminar entidades crediticias. Las entidades van a tener un codigo, un nombre, el tipo(si es debito o credito) y el codigo del banco al cual pertenece.
-- **Gestión de bancos**: Los administradores podrán agregar, modificar o eliminar bancos. Los bancos van a tener un codigo, un nombre y un país de origen (clave foranea). 
+- **Gestión de bancos**: Los administradores podrán agregar, modificar o eliminar bancos. Los bancos van a tener un codigo, un nombre y un país de origen (clave foranea).
+- **Gestión de usuarios**: Los usuarios van a tener como atributos un nombre de usuario, una contraseña y un tipo (si es el superadmin, el que puede dar de alta libros y los clientes). 
 
 ### Frontend
 El frontend por su parte estará orientado a los clientes y será desarrollado en React. Los clientes podrán realizar las siguientes acciones: 
@@ -22,4 +23,4 @@ El frontend por su parte estará orientado a los clientes y será desarrollado e
 - Los clientes podrán filtrar los libros según el nombre, año de edición, editorial.
 - Los clientes recibirán anuncios de libros relacionados con los que haya comprado.
 - **Gestión de pagos**: Los clientes van a poder especificar en que medio de pago lo van a pagar al libro, si es efectivo, debito, credito. Si es en crédito indicará el número de cuotas, si será en 3, 6, 12 o 24 cuotas.
-- **Gestión de pedidos**: Los pedidos realizados por los clientes requerirán el domicilio del cliente, la empresa de correo que transportará el pedido, la fecha estimada de entrega. También se podrá ver un monitoreo de por donde se encuentra el pedido.
+- **Gestión de pedidos**: Los pedidos realizados por los clientes requerirán el domicilio del cliente, la empresa de correo que transportará el pedido, la fecha estimada de entrega. También se le otorgará un número de monitoreo para el seguimiento del pedido.

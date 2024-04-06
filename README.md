@@ -1,7 +1,7 @@
 # Aplicaciones-Web
 
 ## Descripcion del proyecto
-El proyecto que se va a desarrollar en la materia será una aplicacion de venta de libros orientada a los programadores. Esta aplicacion tendrá como nombre "Librernet" y tendrá 2 partes, una en el backend y otra en el frontend. 
+El proyecto que se va a desarrollar en la materia será una aplicacion de venta de libros orientada a los programadores. Esta aplicacion tendrá como nombre "DevLibrary" y tendrá 2 partes, una en el backend y otra en el frontend. 
 
 ### Backend
 El backend será desarrollado en Laravel y los administradores podrán llevar a cabo las siguientes acciones: 

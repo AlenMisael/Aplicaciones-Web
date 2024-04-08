@@ -1,5 +1,8 @@
 # Aplicaciones-Web
 
+## Alumno
+- Morillo Meneses, Alen Misael
+
 ## Descripcion del proyecto
 El proyecto que se va a desarrollar en la materia será una aplicacion de venta de libros orientada a los programadores. Esta aplicacion tendrá como nombre "ByteBooks" y tendrá 2 partes, una en el backend y otra en el frontend. 
 
